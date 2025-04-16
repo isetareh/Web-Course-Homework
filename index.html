@@ -3,30 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>index</title>
+    <title>Setareh Ghobadi | Portfolio</title>
+    <link rel="stylesheet" href="style.css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <h1>HW1</h1>
-        <p>My name is : Setareh Ghobadi</p>
-        <img src="star.jpg" alt="Not Found">
+    <header class="header">
+        <div class="container">
+            <img src="profile.jpg" alt="Profile Picture" class="profile-img">
+            <h1>Setareh Ghobadi</h1>
+        </div>
     </header>
 
-    <div>
-        <h2>Information</h2>
-        <pre>I love playing badminton because it keeps me active and sharpens my reflexes.
-Coding excites me as I enjoy solving problems and building new things through programming.
-Photography allows me to capture beautiful moments and express my creativity.
-Most of all, I cherish hanging out with my family, as it brings me joy and strengthens our bond.</pre>
-    </div>
-    <hr>
-    <div>
-        <ul style="list-style-type:disc;">
-            <li>Coding</li>
-            <li>Playing Badminton</li>
-            <li>Problem Solving</li>
-        </ul>
-    </div>
 
+    <section class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                I love playing badminton because it keeps me active and sharpens my reflexes. Coding excites me as I enjoy solving problems and building new things through programming. Photography allows me to capture beautiful moments and express my creativity. Most of all, I cherish hanging out with my family, as it brings me joy and strengthens our bond.
+            </p>
+        </div>
+    </section>
+
+
+    <section class="skills">
+        <div class="container">
+            <h2>My Skills</h2>
+            <ul>
+                <li>html</li>
+                <li>css</li>
+                <li>python</li>
+                <li>problem solving</li>
+                <li>playing badminton</li>
+            </ul>
+        </div>
+    </section>
+
+
+    <section class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <form class="contact-form">
+                <label for="fname">Name:</label>
+                <input type="text" placeholder="Your Name" id="fname" name="fname" required>
+                <label for="email">Email:</label>
+                <input type="email" placeholder="Your Email" id="email" name="email" required>
+                <label for="your Message">Message: </label>
+                <textarea rows="5" placeholder="Your Message" id="your Message" name="your Message" required></textarea>
+                <button type="submit">Send Message <i class="fas fa-paper-plane"></i></button> <!-- Using the paper-plane icon from the Font Awesome library :)  <-->
+            </form>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <p>Crafted by Setareh Ghobadi</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
